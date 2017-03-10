@@ -1,0 +1,316 @@
+body{
+    position: relative;
+    padding-top: 50px;
+    font-family: Helvetica Neue, Helvetica, Arial, Liberation Sans, FreeSans, sans-serif;
+}
+
+.carousel-inner img{
+    width: 100%;
+}
+
+.page-section{
+    padding: 4% 0;
+}
+
+.page-section-title{
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+#carousel .carousel-caption{
+    bottom: auto;
+    top: 20%;
+}
+
+.modaltext{
+    color: #000;
+}
+
+.brand{
+   color: #E6E7E8;
+   font-size: 25px; 
+}
+.social{
+    color: #E6E7E8;
+}
+
+#about{
+    color: #0c0c2c;
+    background-color: #F8F9FE;
+}
+
+#about .tooltip-inner{
+    background-color: #fff;
+    color: #000;
+}
+
+#about .panel-body{
+    padding: 15px;
+    color: #545454;
+}
+
+#about .panel-title{
+    cursor: pointer;
+}
+
+.border-top {
+    border-top: 0.1rem solid #DCDEDD;
+}
+
+#materials .material-desc{
+    margin-top: 10px;
+}
+
+#products{
+    box-shadow: inset 0 20px 20px -20px #D8D8D8;
+}
+
+@media (min-width: 992px){
+    #products .thumbnail{
+        height: 440px;
+    }
+}
+
+
+#projects{
+    background-color: whitesmoke;
+}
+
+#projects a:hover{
+    text-decoration: none;
+
+}
+
+#projects .thumbnail .description{
+    height: 80px;
+    overflow: hidden;
+}
+
+#movies{
+    background-color: #000;
+    color: #F0F0F0;
+}
+
+#movies hr{
+    margin: 70px 0;
+    border-top: 1px solid #535353;
+}
+
+#contact{
+    background-color: #020621;
+    color: #E6E7E8;
+}
+
+#contact .google-map{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#contact .form-wrapper{
+    padding-top: 50px;
+}
+
+#contact .form-wrapper .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#footer{
+    background-color: teal;
+    padding: 30px 0;
+}
+
+#footer .page-section-title{
+    color: #fff;
+}
+
+#project-modal-1 .glyphicon-ok{
+    color: #0BA622;
+}
+
+#project-modal-1 .glyphicon-remove{
+    color: #B70409
+}
+
+.adobe-badge{
+    height: 128px;
+    padding-top: 26px;
+    padding-left: 145px;
+    font-size: 28px;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    -webkit-background-size: 128px 128px;
+    background-size: 128px 128px;
+    background-position: left center;
+}
+
+.adobe-badge.premiere{
+    background-image: url(../img/icons/adobe-premiere.svg);
+}
+
+.adobe-badge.after-effects{
+    background-image: url(../img/icons/adobe-ae.svg);
+}
+
+.success{
+    color: #5cb85c;
+}
+
+
+
+/*------------------------
+        PAGINATION
+------------------------*/
+.pagination {
+  padding-top: 30px;
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+}
+.pagination__link {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  margin: 0 10px;
+  border: 2px #ececec solid;
+  font-family: "Dosis", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #000;
+}
+.pagination__link:hover, .pagination__link--active {
+  border-color: #5cb85c;
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
+
+
+.login {
+    background-color: #eee;
+}
+
+.wrapper { 
+    margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  border-right: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  border-left: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 3rem 5rem -2rem rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+  font-size: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  height: auto;
+  border-radius: 1px;
+}
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  top: 26px;
+  padding: 14px 30px 14px 20px;
+  background-color: rgba(0,0,0,0.05);
+  pointer-events: none;
+  border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  65px; }
+
+.form-signin input {
+  margin-bottom:15px;
+  height:44px;
+}
+
+.form-signin .forgot-password {
+  display: block;
+  padding-top:2px;
+  padding-bottom:2px;
+  margin-top:-8px;
+  margin-bottom:30px;
+  font-size:12px;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+
+.account-signup {
+  max-width: 380px;
+  padding: 15px 35px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.1);
+}
+
+
+
+/*------------------------
+         PRELOADER
+------------------------*/
+.preloader {
+  display: none;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.85) url(../img/ajax-loader.gif) center center no-repeat;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10001;
+}
+
+#blog-header{
+    padding: 5% 0;
+    margin-bottom: 50px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/apple-desk-imac-1712.jpg);
+}
+
+#blog-header h1{
+    font-size: 46px;
+}
+
+#blog-header,
+#blog-header small{
+    color: #fff;
+}
+
+.comments{
+    margin-bottom: 50px;
+}
+
+.plugin-wrapper{
+    float: right;
+    min-width:72px
+}
