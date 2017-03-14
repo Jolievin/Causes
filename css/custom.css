@@ -4,6 +4,33 @@ body{
     font-family: Helvetica Neue, Helvetica, Arial, Liberation Sans, FreeSans, sans-serif;
 }
 
+
+
+.contact a{
+
+  color: #FFF;
+
+}
+
+.tag-list .btn{
+  margin:2px;
+ }
+
+.media-body a{
+  color: #000;
+}
+
+.explore a{
+  color: #000;
+}
+
+#start  { 
+background: url(../img/subtle_dots.png) repeat; 
+
+}
+
+
+
 .carousel-inner img{
     width: 100%;
 }
@@ -86,34 +113,12 @@ body{
     overflow: hidden;
 }
 
-#movies{
-    background-color: #000;
-    color: #F0F0F0;
-}
-
-#movies hr{
-    margin: 70px 0;
-    border-top: 1px solid #535353;
-}
-
 #contact{
     background-color: #020621;
     color: #E6E7E8;
 }
 
-#contact .google-map{
-    padding-left: 0;
-    padding-right: 0;
-}
 
-#contact .form-wrapper{
-    padding-top: 50px;
-}
-
-#contact .form-wrapper .form-group{
-    margin-left: 0;
-    margin-right: 0;
-}
 
 #footer{
     background-color: teal;
@@ -132,25 +137,6 @@ body{
     color: #B70409
 }
 
-.adobe-badge{
-    height: 128px;
-    padding-top: 26px;
-    padding-left: 145px;
-    font-size: 28px;
-    white-space: nowrap;
-    background-repeat: no-repeat;
-    -webkit-background-size: 128px 128px;
-    background-size: 128px 128px;
-    background-position: left center;
-}
-
-.adobe-badge.premiere{
-    background-image: url(../img/icons/adobe-premiere.svg);
-}
-
-.adobe-badge.after-effects{
-    background-image: url(../img/icons/adobe-ae.svg);
-}
 
 .success{
     color: #5cb85c;
@@ -186,6 +172,10 @@ body{
   color: #fff;
 }
 
+.start {
+
+  text-align: center;
+}
 
 .center-block {
    margin-left:auto;
@@ -202,6 +192,12 @@ body{
     margin-top: 80px;
   margin-bottom: 80px;
 }
+
+
+
+/*------------------------
+        FORM
+------------------------*/
 
 .form-signin {
   max-width: 380px;
@@ -274,43 +270,4 @@ body{
 
 
 
-/*------------------------
-         PRELOADER
-------------------------*/
-.preloader {
-  display: none;
-  width: 100%;
-  height: 60px;
-  background: rgba(0, 0, 0, 0.85) url(../img/ajax-loader.gif) center center no-repeat;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 10001;
-}
 
-#blog-header{
-    padding: 5% 0;
-    margin-bottom: 50px;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    background-image: url(../img/apple-desk-imac-1712.jpg);
-}
-
-#blog-header h1{
-    font-size: 46px;
-}
-
-#blog-header,
-#blog-header small{
-    color: #fff;
-}
-
-.comments{
-    margin-bottom: 50px;
-}
-
-.plugin-wrapper{
-    float: right;
-    min-width:72px
-}
