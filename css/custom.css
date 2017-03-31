@@ -144,6 +144,59 @@ background: url(../img/subtle_dots.png) repeat;
 
 
 
+div.newFlag {
+    background-image: url(../img/newflag.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 143px;
+    height: 33px;
+    position: absolute;
+    top: 35px;
+    left: 10;
+    border: none;
+}
+
+div.HotFlag {
+    background-image: url(../img/hotbanner.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 143px;
+    height: 33px;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    border: 0 none;
+ 
+    box-shadow: none;
+}
+
+
+div.HeartLike {
+    background-image: url(../img/heartbanner.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 490px;
+}
+
+
+
+div.HeartLikeSmall {
+    background-image: url(../img/heartbanner.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 280px;
+}
+
+ 
+
 /*------------------------
         PAGINATION
 ------------------------*/
